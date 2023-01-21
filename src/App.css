@@ -1,38 +1,557 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+Link {
+    list-style: none;
+    text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+
+    background-color: black;
+
+    letter-spacing: 0 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.div-background {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/d0a0affb-1c76-4cf0-9d75-eb531f32458c/e81da519-216b-4341-b9e7-92d45398ddc3/IN-en-20221214-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    height: 100vh;
+    /* background-color: rgba(0, 0, 0, .75); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    border-bottom: 8px solid #222;
+
 }
 
-.App-link {
-  color: #61dafb;
+.img-left {
+    height: 15vh;
+    margin-left: 50px;
+    float: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.head-flex {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 0;
+
+}
+
+
+
+.div-right {
+    margin-top: 30px;
+    margin-right: 50px;
+    float: right;
+}
+
+.div-right-select {
+    margin-right: 40px;
+    font-size: 1rem;
+    text-align: center;
+
+    background: rgba(0, 0, 0, .4);
+    border: 1px solid #aaa;
+    color: #ffff;
+    padding: .25rem 1.375rem;
+    overflow: hidden;
+    font-weight: bolder;
+
+}
+
+.Login-btn {
+    background-color: #e50914;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7px 17px;
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.card-background {
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding: 5rem;
+    justify-content: center;
+    /* background-color: aqua; */
+    margin: 0 4rem 0 4rem;
+    color: #ffff;
+    overflow: hidden;
+}
+
+.head-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 5rem;
+    font-size: 39px;
+    /* background-color: blue; */
+    padding: 7rem 7rem 1rem 7rem;
+    margin: 0 50px;
+    overflow: hidden;
+}
+
+.sub-head {
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.form-head {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.signup-input {
+    height: 70px;
+    font-family: sans-serif;
+    width: 43%;
+    font-size: 1rem;
+    padding: 0 0 0 20px;
+    border: 1px solid skyblue;
+    border-color: skyblue;
+    border-radius: 2px 0 0 2px;
+}
+
+.getstart {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #e50914;
+    font-weight: bold;
+    border: none;
+    align-items: center;
+    font-size: 27px;
+    margin-top: 7px;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: #ffff;
+
+}
+
+.getstart-link {
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #e50914;
+    font-weight: bold;
+    border: none;
+    align-items: center;
+    font-size: 27px;
+    width: 18%;
+
+
+}
+
+.getstartlogo {
+    font-size: large;
+    font-size: small;
+    background-color: #e50914;
+    padding: 30px 0;
+    cursor: pointer;
+    border-radius: 0 2px 2px 0;
+}
+
+.img-left {
+    height: 15vh;
+    margin-left: 50px;
+    float: left;
+}
+
+.signin-form {
+    letter-spacing: 0 !important;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    justify-content: center;
+
+
+}
+
+.signin-form-1 {
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
+
+.signin-from-2 {
+    background-color: rgba(0, 0, 0, .75);
+    text-align: center;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    margin: 0 4rem;
+    min-height: 70vh;
+    width: 30vw;
+    padding: 30px 20px 20px 20px;
+    border-radius: 2px;
+}
+
+.signin-input-field {
+    width: 70%;
+    background-color: rgba(114, 111, 111, 0.75);
+    padding: 10px 0 10px 15px;
+    border: 1px solid #8c8c8c;
+    border: none;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin: 25px 0 10px 0;
+    height: 6vh;
+}
+
+.signin-btn {
+    background: #e50914;
+    color: #ffff;
+    height: 6vh;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 70%;
+    margin: 30px 0;
+
+}
+.rembermecheckbox{
+    float: left;
+    margin-top: 6px;
+    margin-left: 5rem;
+    margin-right: 5px;
+}
+
+.signin-contain-sub-div {
+    /* display: flex;
+    flex-direction: row; */
+    margin-top: 70px;
+
+    background-color: #e50914;
+}
+
+.new-account {
+    color:red;
+    float: left;
+    margin-left: 70px;
+    margin-right: 10px;
+    letter-spacing: 0 !important;
+    font-weight: 400;
+}
+
+.sec-div {
+    display: flex;
+    letter-spacing: 0 !important;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    overflow: hidden;
+}
+
+.sec-div-2 {
+    margin-left: 15rem;
+    width: auto;
+    text-align: left;
+    margin-right: 10rem;
+    color: #ffff;
+}
+
+.sec-subhead-div {
+    font-size: 1.35rem;
+    font-weight: 500;
+
+}
+
+.sec-head-div {
+    margin-top: 9rem;
+    font-size: 2.6rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.sec-img {
+    margin: 40px 0 80px 50px;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.sec-img-style {
+    width: 70%;
+    position: relative;
+    z-index: 2;
+}
+
+.video-div {
+    position: absolute;
+    margin-left: 61px;
+    top: 115.77%;
+}
+
+.sec-video1 {
+    width: 69%;
+}
+
+.video-div1 {
+    position: absolute;
+    margin-left: 75px;
+    top: 236.77%;
+}
+
+.sec-video2 {
+    width: 59%;
+}
+
+.section2 {
+    border-bottom: 8px solid #222;
+
+
+}
+
+.logout-icon {
+    margin-top: 47px;
+    margin-left: 20px;
+    /* color: #e50914; */
+    height: 30px;
+    font-weight: bold;
+}
+
+.tv-show-title {
+    margin-top: 20px;
+    margin-left: 1rem;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.tv-row- {
+    display: flex;
+    flex-direction: row;
+    background-color: #e50914;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+
+.tv-row-content {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 0;
+    /* background-color: aqua; */
+    width: 15.30vw;
+    /* height: auto; */
+    align-items: center;
+}
+
+.tv-row-content:hover {
+
+    /* display: none; */
+    border: 1px solid;
+    box-shadow: 5px snow;
+    border-radius: 6px;
+}
+
+.tv-img-width {
+    width: 80%;
+    height: 100%;
+
+
+}
+
+.title-height {
+    margin-top: 10px;
+    /* background-color: blue; */
+    width: 100%;
+    height: auto;
+}
+
+.tv-row-content-link {
+    height: 38vh;
+    /* background-color: #e50914; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 28.33vh;
+    /* background-color: blue; */
+    background-color: linear-gradient(rgba(228, 214, 214, 0), rgb(240, 229, 229));
+    ;
+    padding: 10px;
+}
+
+.tv-img-width {
+    width: 90%;
+    border-radius: 6px;
+}
+
+.ex1 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+    border-bottom: 8px solid #222;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+
+.ex1::-webkit-scrollbar {
+    width: 0;
+}
+
+/* moviecard css */
+
+.movie {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie__intro {
+    width: 80%;
+}
+
+.movie__backdrop {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: 0 35%;
+}
+
+.movie__detail {
+    align-items: center;
+    width: 75%;
+    display: flex;
+    position: relative;
+    bottom: 225px;
+}
+
+.movie__detailLeft {
+    margin-right: 30px;
+}
+
+.movie__poster {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.86) 0px 22px 40px 6px;
+}
+
+.movie__detailRight {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    justify-content: space-between;
+ 
+}
+
+.movie__detailRightTop>div {
+    text-shadow: 0px 0px 5px #000000;
+    margin-bottom: .5rem;
+}
+
+.movie__name {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.movie__voteCount {
+    margin-left: 1rem;
+}
+
+.movie__genres {
+    margin: 1.25rem 0;
+}
+
+.movie__genre {
+    padding: .5rem;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-right: 1rem;
+}
+
+
+.movie__detailRightBottom {
+    margin: 2rem 0;
+    flex: 0.8;
+}
+
+.synopsisText {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+    font-weight: 600;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.synopsisText>div:last-of-type {
+    margin-left: auto;
+}
+
+.movie__links {
+    position: relative;
+    bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.movie__heading {
+    font-size: 2.2rem;
+    color: aliceblue;
+}
+
+.movie__Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem 2rem;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 150px;
+    color: black;
+    font-weight: bold;
+}
+
+.movie__homeButton {
+    background-color: rgb(255, 0, 0);
+
+}
+
+.movie__imdbButton {
+    background-color: #f3ce13;
+}
+
+.newTab {
+    margin-left: 1.4rem;
+}
+
+.movie__production {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 4rem;
+}
+
+
+.movie__productionComapany {
+    width: 200px;
+    margin: 2rem;
+}
+
+.productionCompanyImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

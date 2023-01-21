@@ -1,0 +1,416 @@
+@media screen and (max-width: 600px) {
+    .div-background {
+        background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/d0a0affb-1c76-4cf0-9d75-eb531f32458c/e81da519-216b-4341-b9e7-92d45398ddc3/IN-en-20221214-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+        height: auto;
+        /* background-color: rgba(0, 0, 0, .75); */
+        background-repeat: no-repeat;
+        background-size: contain cover;
+        background-position: center;
+        width: 100%;
+        border-bottom: 8px solid #222;
+
+    }
+
+    .head-flex {
+        margin-bottom: 3rem;
+
+
+    }
+
+    .img-left {
+        margin-left: 10px;
+        float: left;
+        width: 30%;
+        height: 8vh;
+
+
+    }
+
+    .div-right {
+        margin-top: 17px;
+        margin-right: 0px;
+        float: right;
+    }
+
+    .div-right-select {
+        margin-right: 15px;
+        font-size: 0.88rem;
+        padding: .15rem 1.100rem;
+        font-weight: 500;
+        border-inline-color: none;
+
+    }
+
+    .Login-btn {
+        background-color: #e50914;
+        color: #fff;
+        font-size: 0.88rem;
+        font-weight: 400;
+        line-height: normal;
+        padding: 5px 17px;
+        margin-right: 5px;
+        border-radius: 3px;
+
+    }
+
+    .card-background {
+        display: block;
+        align-items: center;
+        text-align: center;
+        padding: 3rem 0.66rem;
+        justify-content: center;
+        /* background-color: aqua; */
+        margin: 0 2rem 0 2rem;
+        color: #ffff;
+        overflow: hidden;
+    }
+
+    .head-text {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-bottom: 7rem;
+        font-size: 15px;
+        /* background-color: blue; */
+        padding: 1rem 0rem 1rem 0rem;
+        margin: 0 5px;
+        overflow: hidden;
+    }
+
+
+    .form-head {
+
+        font-size: 15px;
+
+    }
+
+    .signup-input {
+        height: 31px;
+        width: 43%;
+        font-size: 0.77rem;
+        padding: 0 0 0 0px;
+
+    }
+
+    .getstart {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: #e50914;
+        font-weight: bold;
+        border: none;
+        align-items: center;
+        font-size: 10px;
+        margin-top: 0px;
+        padding: 10px 6px;
+        cursor: pointer;
+        color: #ffff;
+
+    }
+
+    .getstart-link {
+        cursor: pointer;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: #e50914;
+        font-weight: bold;
+        border: none;
+        align-items: center;
+        font-size: 17px;
+        width: 25%;
+
+
+    }
+
+    .getstartlogo {
+        font-size: small;
+        background-color: #e50914;
+        padding: 10px 0;
+        cursor: pointer;
+    }
+
+    .sec-div-2 {
+        margin-left: 2rem;
+        width: auto;
+        text-align: left;
+        margin-right: 0.20rem;
+        color: #ffff;
+        margin-bottom: 1rem;
+    }
+
+    .sec-subhead-div {
+        font-size: 0.77rem;
+        font-weight: 500;
+
+    }
+
+    .sec-head-div {
+        margin-top: 2rem;
+        font-size: 0.99rem;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+    }
+
+    .sec-img-style {
+        width: 90%;
+        position: relative;
+        z-index: 2;
+    }
+
+    .sec-video1 {
+        width: 86%;
+    }
+
+    .video-div {
+        position: absolute;
+        margin-left: 27.72px;
+        top: 65%;
+    }
+
+    .sec-img-child {
+        height: 30vh;
+        width: 100%;
+    }
+
+    .video-div1 {
+        position: absolute;
+        margin-left: 38px;
+        top: 129%;
+    }
+
+    .sec-video2 {
+        width: 69%;
+    }
+
+    .img-left {
+        /* height:auto; */
+        width: 40%;
+        margin-left: 10px;
+    }
+
+    .signin-from-2 {
+        background-color: rgba(0, 0, 0, .75);
+        text-align: center;
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        margin: 0 0 40px 0;
+        min-height: auto;
+        width: auto;
+        padding: 30px 20px 20px 20px;
+        border-radius: 2px;
+    }
+
+    .rembermecheckbox {
+        margin-left: 1rem;
+    }
+
+    .signin-contain-sub-div {
+        margin-top: 10px;
+
+        background-color: transparent;
+    }
+
+    .rembermecheckbox {
+        float: left;
+        margin-top: 6px;
+        margin-left: 1rem;
+        margin-right: 0px;
+
+    }
+
+    .new-account {
+        float: left;
+        margin-left: 30px;
+        margin-right: 10px;
+        letter-spacing: 0 !important;
+        font-weight: 400;
+    }
+
+    .signin-input-field {
+        font-size: 15px;
+        letter-spacing: 0 !important;
+
+    }
+
+
+
+    /* banner */
+
+    .posterImage {
+        height: 350px;
+    }
+
+    .posterImage__overlay {
+        padding: 2rem;
+        background-image: linear-gradient(rgb(0, 0, 0, 0), rgb(0, 0, 0, 1));
+
+
+    }
+
+    .posterImage__title {
+        font-weight: 900;
+        font-size: 1.95rem;
+        margin-bottom: 0.4rem;
+        text-align: left;
+    }
+
+    .posterImage__runtime {
+        font-size: 1.77rem;
+        margin-bottom: 1rem;
+    }
+
+    .posterImage__description {
+        font-style: italic;
+        font-size: 0.66rem;
+        margin-bottom: 1rem;
+        display: flex;
+        text-align: left;
+        width: 60%;
+
+    }
+
+    /* moviedetail */
+    .tv-row-content {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 2rem;
+        justify-content: center;
+        text-align: center;
+        padding: 5px;
+        /* background-color: aqua; */
+        width: 30vw;
+        /* height: auto; */
+        align-items: center;
+    }
+
+    .tv-row-content:hover {
+
+        /* display: none; */
+        border: 1px solid;
+        box-shadow: 5px snow;
+        border-radius: 6px;
+    }
+
+    .tv-row-content-link {
+        height: 22vh;
+        /* background-color: #e50914; */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 28.33vh;
+        /* background-color: blue; */
+        background-color: linear-gradient(rgba(228, 214, 214, 0), rgb(240, 229, 229));
+        ;
+        padding: 10px;
+    }
+
+    .tv-img-width {
+        width: 50%;
+        height: auto;
+
+
+    }
+
+
+    .title-height {
+        margin-top: 0px;
+        /* background-color: blue; */
+        width: 100%;
+        height: auto;
+    }
+
+    /* navbar */
+        
+
+    /* moviecard */
+    .movie__intro {
+        width: 100%;
+    }
+
+    .movie__backdrop {
+        width: 100%;
+        height: 350px;
+        object-position: center;
+        background-repeat: no-repeat;
+        object-fit: cover;
+
+
+    }
+
+    .movie__detailLeft {
+        margin-right: 10px;
+
+    }
+
+    .movie__poster {
+        width: 170px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.86) 0px 22px 40px 6px;
+    }
+
+    .movie__detailRight {
+        justify-content: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        /* width: 55.50%; */
+        width: auto;
+        /* background-color: #e50914; */
+        justify-content: space-between;
+    }
+
+    .movie__name {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 400;
+        font-size: 2rem;
+    }
+
+    .movie__voteCount {
+        margin-left: 0.55rem;
+    }
+
+    .movie__genres {
+        margin: 0;
+        /* background-color: aqua; */
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        width: 41vw;
+        padding: 0.55;
+    }
+
+    .movie__genre {
+        font-size: 7px;
+        font-weight: 400;
+        padding: 0.55rem;
+        margin: 0.33rem 0;
+        border: 2px solid white;
+        border-radius: 20px;
+        margin-right: 0rem;
+    }
+
+    .movie__detailRightBottom {
+        margin: 0rem 2px;
+        flex: 0.8;
+    }
+
+    .movie__heading {
+        font-size: 1rem;
+        color: aliceblue;
+    }
+
+    .movie__Button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.8rem;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 115px;
+        color: black;
+        font-weight: bold;
+    }
+
+    .movie__homeButton {
+        background-color: rgb(255, 0, 0);
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
