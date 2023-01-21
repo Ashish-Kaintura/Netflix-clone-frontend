@@ -13,7 +13,6 @@ function NavBar(props) {
   const [toggle, setToggle] = useState(false);
   const [navbarColor, setNavbarColor] = useState('#282828');
   const auth = localStorage.getItem('user');
-  // `https://api.themoviedb.org/3/search/movie?api_key=f29b6fd771253286db780b08d92449de&query=${searchQuery}`
   const [isOpen, setIsOpen] = useState(false);
   const toggleNav = () => setIsOpen(!isOpen);
   const closeNav = () => setIsOpen(false);
