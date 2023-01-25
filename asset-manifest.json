@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Ashish-Kaintura.github.io/Netflix-clone-frontend/static/css/main.8b52d26f.css",
-    "main.js": "/Ashish-Kaintura.github.io/Netflix-clone-frontend/static/js/main.4c4d001e.js",
-    "static/js/787.22edae46.chunk.js": "/Ashish-Kaintura.github.io/Netflix-clone-frontend/static/js/787.22edae46.chunk.js",
-    "index.html": "/Ashish-Kaintura.github.io/Netflix-clone-frontend/index.html",
-    "main.8b52d26f.css.map": "/Ashish-Kaintura.github.io/Netflix-clone-frontend/static/css/main.8b52d26f.css.map",
-    "main.4c4d001e.js.map": "/Ashish-Kaintura.github.io/Netflix-clone-frontend/static/js/main.4c4d001e.js.map",
-    "787.22edae46.chunk.js.map": "/Ashish-Kaintura.github.io/Netflix-clone-frontend/static/js/787.22edae46.chunk.js.map"
+    "main.css": "/Netflix-clone-frontend/static/css/main.8b52d26f.css",
+    "main.js": "/Netflix-clone-frontend/static/js/main.4e4da457.js",
+    "static/js/787.22edae46.chunk.js": "/Netflix-clone-frontend/static/js/787.22edae46.chunk.js",
+    "index.html": "/Netflix-clone-frontend/index.html",
+    "main.8b52d26f.css.map": "/Netflix-clone-frontend/static/css/main.8b52d26f.css.map",
+    "main.4e4da457.js.map": "/Netflix-clone-frontend/static/js/main.4e4da457.js.map",
+    "787.22edae46.chunk.js.map": "/Netflix-clone-frontend/static/js/787.22edae46.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8b52d26f.css",
-    "static/js/main.4c4d001e.js"
+    "static/js/main.4e4da457.js"
   ]
 }
