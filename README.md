@@ -1,6 +1,4 @@
-Notes 
- when you signin or signup it will take some time to load do not hurry please be patient.thanks 
- 
+
 API_URL=https://api.themoviedb.org/3/movie/popular?api_key="...."
 image=https://image.tmdb.org/t/p/w500/
 
