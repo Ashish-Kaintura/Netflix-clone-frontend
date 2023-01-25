@@ -10,9 +10,9 @@ const Home = () => {
         <div>
 
             <section className='sec-home' id='home'>
-              <div>
+             
                 <Banner/>
-              </div>
+             
             </section>
             <section id='trending'>
                 <Trendng />
