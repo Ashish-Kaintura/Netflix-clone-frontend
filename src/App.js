@@ -11,7 +11,7 @@ function App() {
   return (
 
     <div>
-      <BrowserRouter >
+      <BrowserRouter basename="/Netflix-clone-frontend" >
         <Routes>
           <Route element={<Private_Component />}>
             <Route path='/' element={<Home />} />
