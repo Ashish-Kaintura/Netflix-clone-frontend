@@ -45,7 +45,7 @@ const Signin = () => {
                         <div className="head-flex">
                             <img
                                 className="img-left"
-                                src="\img\netflixlogo.png"
+                                src={require("../images/netflixlogo.png")}
                                 alt="netflix logo"
                             />
                         </div>

@@ -69,7 +69,7 @@ function NavBar(props) {
           <div className="sidenav">
             <img
               className="nav-logo-sidenav"
-              src="\img\netflixlogo.png"
+              src={require("../images/netflixlogo.png")}
               alt="logo"
             />
             <div className="navbar-links-sidenav">

@@ -24,7 +24,7 @@ const FrontPage = () => {
             <section className='div-background'>
                 <nav>
                     <div className='head-flex'>
-                        <img className='img-left' src="\img\netflixlogo.png" alt="netflix logo" />
+                        <img className='img-left' src={require("../images/netflixlogo.png")} alt="netflix logo" />
                         <div>
                             <div className='div-right'>
                                 <select className='div-right-select'>

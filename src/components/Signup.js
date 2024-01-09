@@ -36,7 +36,7 @@ const Signup = () => {
             <section className='div-background'>
                 <nav>
                     <div className='head-flex'>
-                        <img className='img-left' style={{ height: "15vh" }} src="\img\netflixlogo.png" alt="netflix logo" />
+                        <img className='img-left' style={{ height: "15vh" }} src={require("../images/netflixlogo.png")} alt="netflix logo" />
 
                     </div>
                 </nav>
